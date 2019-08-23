@@ -1,0 +1,30 @@
+/* PHASE 11: Icons */
+
+[class*="icon-"]::before {
+  content: "";
+  background-image: url("../images/sprite.png");
+  width: 25px;
+  height: 25px;
+  background-size: 25px 250px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+[class*="icon-small-"]::before {
+  padding-top: 2px;
+  
+}
+
+.icon-small-wall::before {
+  background-position: 0px -225px;
+}
+.icon-small-about::before {
+  background-position: 0px -175px;
+}
+.icon-small-friends::before {
+  background-position: 0px -150px;
+}
+.icon-small-photos::before {
+  background-position: 0px -200px;
+}
+
